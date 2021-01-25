@@ -1,6 +1,6 @@
 # the-restaurant-page
 
-
+This is a restaurant page created using webpack and JS ES6. Content on the page is generated using JS only.
 
 ## Built With
 
@@ -27,8 +27,10 @@ $ Open the index.html file using your favorite browser
 ```
 ## Live vesion
 
+[Live Demo Link](https://rawcdn.githack.com/UmairAhmad125/the-restaurant-page/53f789a00bc9e7215e2dedee9297c144c264ef5e/dist/index.html)
 
-# Authors
+
+# Author
 
 
 👤 **Umair Ahmad**
