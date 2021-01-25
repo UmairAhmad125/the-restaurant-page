@@ -2,43 +2,42 @@ import img from '../logo.jpg';
 
 
 function navbar() {
-    let nav_cont = document.createElement("div");
-    let image_cont = document.createElement("div");
+  const navCont = document.createElement('div');
+  const imageCont = document.createElement('div');
 
-    let tabs_cont = document.createElement("div");
-    tabs_cont.classList.add('tabs-cont');
-    nav_cont.appendChild(image_cont);
-    nav_cont.appendChild(tabs_cont);
-    const image = new Image();
-    image.src = img;
-    image.classList.add("logo");
-    image_cont.appendChild(image);
+  const tabsCont = document.createElement('div');
+  tabsCont.classList.add('tabs-cont');
+  navCont.appendChild(imageCont);
+  navCont.appendChild(tabsCont);
+  const image = new Image();
+  image.src = img;
+  image.classList.add('logo');
+  imageCont.appendChild(image);
 
-    const home = document.createElement("li");
-    const menu = document.createElement("li");
-    const contact = document.createElement("li");
+  const home = document.createElement('li');
+  const menu = document.createElement('li');
+  const contact = document.createElement('li');
 
-    home.setAttribute('id', 'home');
-    menu.setAttribute('id', 'menu');
-    contact.setAttribute('id', 'contact');
+  home.setAttribute('id', 'home');
+  menu.setAttribute('id', 'menu');
+  contact.setAttribute('id', 'contact');
 
 
-    const home_text = document.createTextNode('Home');
-    home.appendChild(home_text);
-    const menu_text = document.createTextNode('Menu');
-    menu.appendChild(menu_text);
-    const contact_text = document.createTextNode('Contact us');
-    contact.appendChild(contact_text);
+  const homeText = document.createTextNode('Home');
+  home.appendChild(homeText);
+  const menuText = document.createTextNode('Menu');
+  menu.appendChild(menuText);
+  const contactText = document.createTextNode('Contact us');
+  contact.appendChild(contactText);
 
-    tabs_cont.appendChild(home);
-    tabs_cont.appendChild(menu);
-    tabs_cont.appendChild(contact);
+  tabsCont.appendChild(home);
+  tabsCont.appendChild(menu);
+  tabsCont.appendChild(contact);
 
-    nav_cont.classList.add("nav_cont");
-    const containerOut = document.getElementById('content');
-    containerOut.innerHTML = '';
-    containerOut.appendChild(nav_cont);
-
+  navCont.classList.add('navCont');
+  const containerOut = document.getElementById('content');
+  containerOut.innerHTML = '';
+  containerOut.appendChild(navCont);
 }
 
 // navigation();

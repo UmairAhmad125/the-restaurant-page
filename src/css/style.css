@@ -15,7 +15,7 @@
   color: whitesmoke;
 }
 
-.nav_cont {
+.navCont {
   display: flex;
   flex-direction: row;
   align-items: center;
