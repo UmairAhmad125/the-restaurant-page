@@ -2,6 +2,8 @@
 
 This is a restaurant page created using webpack and JS ES6. Content on the page is generated using JS only.
 
+![screenshot](./screenshot.png)
+
 ## Built With
 
 - javascript
