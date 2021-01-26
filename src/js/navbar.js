@@ -40,5 +40,5 @@ function navbar() {
   containerOut.appendChild(navCont);
 }
 
-// navigation();
+
 export { navbar as default };

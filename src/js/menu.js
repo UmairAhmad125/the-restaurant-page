@@ -20,7 +20,7 @@ function menu() {
     desc.classList.add('card-text');
     const foodimage = new Image();
     foodimage.src = img;
-    foodimage.classList.add('food-image', 'd-block', 'w-100', 'card-img-top');
+    foodimage.classList.add('food-image', 'd-block', 'card-img-top');
     foodContainer.appendChild(foodimage);
     foodContainer.appendChild(foodItem);
     foodItems.appendChild(foodContainer);

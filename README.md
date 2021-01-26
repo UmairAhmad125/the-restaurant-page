@@ -7,12 +7,12 @@ This is a restaurant page created using webpack and JS ES6. Content on the page 
 ## Built With
 
 - javascript
-- webpack
+- [webpack](https://webpack.js.org/)
 - vscode
-- Bootstrap
+- [Bootstrap](https://getbootstrap.com/)
 - stylelint
 - eslint
-- npm
+- [npm](https://www.npmjs.com/)
 
 # Getting Started
 
@@ -48,3 +48,8 @@ Contributions, issues and feature requests are welcome!
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Project inspired by Microverse Program
+

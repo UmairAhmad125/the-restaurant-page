@@ -13,14 +13,15 @@ function contact() {
   f.classList.add('form', 'form-group');
 
   const i = document.createElement('input');
-  i.setAttribute('type', 'text');
+  i.setAttribute('type', 'textarea');
   i.setAttribute('name', 'Message');
   i.setAttribute('placeholder', 'Type Your Message');
 
-  const s = document.createElement('input'); // input element, Submit button
+
+  const s = document.createElement('input');
   s.setAttribute('type', 'submit');
   s.setAttribute('value', 'Submit');
-  s.classList.add('btn', 'btn-danger');
+  s.classList.add('btn', 'btn-danger', 'ml-2');
 
   f.appendChild(i);
   f.appendChild(s);
