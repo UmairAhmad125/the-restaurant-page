@@ -1,4 +1,4 @@
-function contact() {
+const contact = () => {
   const containerOut = document.getElementById('content');
 
   const h1 = document.createElement('h1');
@@ -44,7 +44,7 @@ function contact() {
   p.classList.add('mt-3');
   outerDiv.setAttribute('id', 'contact-us');
   containerOut.appendChild(outerDiv);
-}
+};
 
 
 export { contact as default };

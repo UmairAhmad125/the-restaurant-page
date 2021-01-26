@@ -1,4 +1,4 @@
-function homePage() {
+const homePage = () => {
   const containerOut = document.getElementById('content');
   const h1 = document.createElement('h1');
   const h1Text = document.createTextNode('Restaurant de Bon Appetite');
@@ -17,7 +17,7 @@ function homePage() {
   p.classList.add('mt-3');
   outerDiv.setAttribute('id', 'outer-div');
   containerOut.appendChild(outerDiv);
-}
+};
 
 
 export { homePage as default };

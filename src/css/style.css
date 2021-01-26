@@ -56,7 +56,7 @@ li:hover {
 
 .foodContainer {
   width: 20rem;
-  max-height: 300px !important;
+  max-height: 300px;
   margin-top: 40px;
 }
 

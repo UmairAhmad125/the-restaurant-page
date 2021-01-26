@@ -1,7 +1,7 @@
 import img from '../burger.jpg';
 
 
-function menu() {
+const menu = () => {
   const containerOut = document.getElementById('content');
   const foodItems = document.createElement('div');
   foodItems.classList.add('food-items');
@@ -27,7 +27,7 @@ function menu() {
   }
   foodItems.setAttribute('id', 'menu-items');
   containerOut.appendChild(foodItems);
-}
+};
 
 
 export { menu as default };

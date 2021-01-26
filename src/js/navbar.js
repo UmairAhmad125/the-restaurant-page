@@ -1,7 +1,7 @@
 import img from '../logo.jpg';
 
 
-function navbar() {
+const navbar = () => {
   const navCont = document.createElement('div');
   const imageCont = document.createElement('div');
 
@@ -38,7 +38,7 @@ function navbar() {
   const containerOut = document.getElementById('content');
   containerOut.innerHTML = '';
   containerOut.appendChild(navCont);
-}
+};
 
 
 export { navbar as default };
