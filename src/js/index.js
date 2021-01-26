@@ -3,8 +3,6 @@ import menu from './menu';
 import navbar from './navbar';
 import contact from './contact';
 
-require('../css/style.css');
-
 
 navbar();
 homePage();
