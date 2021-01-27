@@ -1,0 +1,35 @@
+{
+    "name": "the-restaurant-page",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack --mode development",
+        "build": "webpack --mode production",
+        "start": "webpack-dev-server --mode development --open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/UmairAhmad125/the-restaurant-page.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/UmairAhmad125/the-restaurant-page/issues"
+    },
+    "homepage": "https://github.com/UmairAhmad125/the-restaurant-page#readme",
+    "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "css-loader": "^5.0.1",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.1.0",
+        "eslint-plugin-import": "^2.20.2",
+        "file-loader": "^6.2.0",
+        "style-loader": "^2.0.0",
+        "url-loader": "^4.1.1",
+        "webpack": "^5.11.0",
+        "webpack-cli": "^4.2.0",
+        "webpack-dev-server": "^3.11.2"
+    }
+}

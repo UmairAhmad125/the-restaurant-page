@@ -1,16 +1,18 @@
 # the-restaurant-page
 
+This is a restaurant page created using webpack and JS ES6. Content on the page is generated using JS only.
 
+![screenshot](./screenshot.png)
 
 ## Built With
 
 - javascript
-- webpack
+- [webpack](https://webpack.js.org/)
 - vscode
-- Bootstrap
+- [Bootstrap](https://getbootstrap.com/)
 - stylelint
 - eslint
-- npm
+- [npm](https://www.npmjs.com/)
 
 # Getting Started
 
@@ -27,8 +29,10 @@ $ Open the index.html file using your favorite browser
 ```
 ## Live vesion
 
+[Live Demo Link](https://rawcdn.githack.com/UmairAhmad125/the-restaurant-page/53f789a00bc9e7215e2dedee9297c144c264ef5e/dist/index.html)
 
-# Authors
+
+# Author
 
 
 👤 **Umair Ahmad**
@@ -44,3 +48,8 @@ Contributions, issues and feature requests are welcome!
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Project inspired by Microverse Program
+
